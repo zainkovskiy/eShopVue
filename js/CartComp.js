@@ -18,7 +18,6 @@ Vue.component('cart', {
                         } else {
                             let prod = Object.assign({quantity: 1}, product);
                             this.cartItems.push(prod);
-                            console.log(this.cartItems);
                         }
                     } else {
                         alert('Error');
